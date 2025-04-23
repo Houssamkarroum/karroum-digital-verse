@@ -47,7 +47,6 @@ export const skillCategories = [
       { name: "AWS", level: 80, icon: CloudCog },
       { name: "Oracle Cloud", level: 75, icon: Cloud },
       { name: "Docker", level: 90, icon: Box },
-      { name: "CI/CD", level: 70, icon: Settings },
       { name: "Render", level: 85, icon: Hexagon },
       { name: "Vercel", level: 85, icon: Cpu },
       { name: "Git", level: 80, icon: Wrench },
