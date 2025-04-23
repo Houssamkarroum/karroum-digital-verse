@@ -252,6 +252,7 @@ const Index = () => {
                     key={skillIndex}
                     name={skill.name}
                     level={skill.level}
+                    icon={<skill.icon className="w-6 h-6" />}
                   />
                 ))}
               </SkillCategory>

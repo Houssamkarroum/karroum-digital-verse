@@ -1,9 +1,9 @@
 
 import { 
   Code, Database, Cloud, LineChart, Library, Brain,
-  PencilRuler, Flask, Cpu, Box, Hexagon, Chrome,
+  PencilRuler, Cpu, Box, Hexagon, Chrome,
   // Import specific tech icons
-  Python, FileType, Java, Database as SqlIcon, FilePen,
+  FileCode, FileType, Database as SqlIcon, FilePen,
   SquareCode, HeartPulse, Boxes, CloudCog, Cable,
   BarChartBig, Wifi, Briefcase, Binary, Boxes as DbIcon,
   Lightbulb
@@ -14,7 +14,7 @@ export const skillCategories = [
     title: "Programming Languages",
     icon: Code,
     skills: [
-      { name: "Python", level: 95, icon: Python },
+      { name: "Python", level: 95, icon: FileCode },
       { name: "Java", level: 85, icon: FileType },
       { name: "PHP", level: 80, icon: FilePen },
       { name: "SQL", level: 90, icon: SqlIcon },
@@ -25,10 +25,10 @@ export const skillCategories = [
     title: "Frameworks & Libraries",
     icon: Library,
     skills: [
-      { name: "Flask", level: 90, icon: Flask },
+      { name: "Flask", level: 90, icon: Briefcase },
       { name: "Spring Boot", level: 85, icon: HeartPulse },
       { name: "Express", level: 70, icon: Boxes },
-      { name: "JEE", level: 75, icon: Java },
+      { name: "JEE", level: 75, icon: FileType },
       { name: "React", level: 80, icon: Chrome },
     ],
   },
