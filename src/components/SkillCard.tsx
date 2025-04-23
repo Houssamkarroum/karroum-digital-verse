@@ -1,15 +1,16 @@
 
 import React from "react";
 import { cn } from "@/lib/utils";
+import { LucideIcon } from "lucide-react";
 
 interface SkillCardProps {
-  icon: React.ReactNode;
+  icon: React.ReactNode | LucideIcon;
   name: string;
   level?: number;
   className?: string;
 }
 
-const SkillCard = ({ icon, name, level = 75, className }: SkillCardProps) => {
+const SkillCard = ({ icon: Icon, name, level = 75, className }: SkillCardProps) => {
   return (
     <div
       className={cn(
@@ -18,7 +19,9 @@ const SkillCard = ({ icon, name, level = 75, className }: SkillCardProps) => {
       )}
     >
       <div className="flex items-center mb-3">
-        <div className="mr-3 text-theme-violet text-2xl">{icon}</div>
+        <div className="mr-3 text-theme-violet text-2xl">
+          {typeof Icon === "function" ? <Icon className="w-6 h-6" /> : Icon}
+        </div>
         <h3 className="text-white font-medium">{name}</h3>
       </div>
 

@@ -1,67 +1,75 @@
 
-import { Code, Database, Cloud, LineChart, Library, Brain } from "lucide-react";
+import { 
+  Code, Database, Cloud, LineChart, Library, Brain,
+  PencilRuler, Flask, Cpu, Box, Hexagon, Chrome,
+  // Import specific tech icons
+  Python, FileType, Java, Database as SqlIcon, FilePen,
+  SquareCode, HeartPulse, Boxes, CloudCog, Cable,
+  BarChartBig, Wifi, Briefcase, Binary, Boxes as DbIcon,
+  Lightbulb
+} from "lucide-react";
 
 export const skillCategories = [
   {
     title: "Programming Languages",
     icon: Code,
     skills: [
-      { name: "Python", level: 95 },
-      { name: "Java", level: 85 },
-      { name: "PHP", level: 80 },
-      { name: "SQL", level: 90 },
-      { name: "JavaScript", level: 75 },
+      { name: "Python", level: 95, icon: Python },
+      { name: "Java", level: 85, icon: FileType },
+      { name: "PHP", level: 80, icon: FilePen },
+      { name: "SQL", level: 90, icon: SqlIcon },
+      { name: "JavaScript", level: 75, icon: SquareCode },
     ],
   },
   {
     title: "Frameworks & Libraries",
     icon: Library,
     skills: [
-      { name: "Flask", level: 90 },
-      { name: "Spring Boot", level: 85 },
-      { name: "Express", level: 70 },
-      { name: "JEE", level: 75 },
-      { name: "React", level: 80 },
+      { name: "Flask", level: 90, icon: Flask },
+      { name: "Spring Boot", level: 85, icon: HeartPulse },
+      { name: "Express", level: 70, icon: Boxes },
+      { name: "JEE", level: 75, icon: Java },
+      { name: "React", level: 80, icon: Chrome },
     ],
   },
   {
     title: "Cloud & DevOps",
     icon: Cloud,
     skills: [
-      { name: "AWS", level: 80 },
-      { name: "Oracle Cloud", level: 75 },
-      { name: "Docker", level: 90 },
-      { name: "Render", level: 85 },
-      { name: "Vercel", level: 85 },
+      { name: "AWS", level: 80, icon: CloudCog },
+      { name: "Oracle Cloud", level: 75, icon: Cloud },
+      { name: "Docker", level: 90, icon: Box },
+      { name: "Render", level: 85, icon: Hexagon },
+      { name: "Vercel", level: 85, icon: Cpu },
     ],
   },
   {
     title: "Big Data & Analytics",
     icon: Database,
     skills: [
-      { name: "Kafka", level: 85 },
-      { name: "Flink", level: 80 },
-      { name: "Elasticsearch", level: 75 },
-      { name: "Kibana", level: 70 },
-      { name: "Power BI", level: 90 },
+      { name: "Kafka", level: 85, icon: Cable },
+      { name: "Flink", level: 80, icon: Wifi },
+      { name: "Elasticsearch", level: 75, icon: BarChartBig },
+      { name: "Kibana", level: 70, icon: LineChart },
+      { name: "Power BI", level: 90, icon: Briefcase },
     ],
   },
   {
     title: "Databases",
     icon: LineChart,
     skills: [
-      { name: "MySQL", level: 95 },
-      { name: "PostgreSQL", level: 90 },
-      { name: "MongoDB", level: 75 },
+      { name: "MySQL", level: 95, icon: DbIcon },
+      { name: "PostgreSQL", level: 90, icon: Database },
+      { name: "MongoDB", level: 75, icon: Binary },
     ],
   },
   {
     title: "AI/ML",
     icon: Brain,
     skills: [
-      { name: "Machine Learning", level: 85 },
-      { name: "Data Science", level: 80 },
-      { name: "NLP", level: 75 },
+      { name: "Machine Learning", level: 85, icon: Brain },
+      { name: "Data Science", level: 80, icon: PencilRuler },
+      { name: "NLP", level: 75, icon: Lightbulb },
     ],
   },
 ];
