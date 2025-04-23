@@ -2,7 +2,7 @@
 import { Code, Database, Cloud, Briefcase, MapPin } from "lucide-react";
 
 export const aboutData = {
-  image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+  image: "../public/images/hero-bg1.png",
   bio: [
     "I'm a passionate Data Engineering & Cloud Computing student, currently pursuing my engineering degree at ENSIBS with a focus on data and cybersecurity.",
     "My journey in tech started with a BTS in Computer Science, which eventually led to my admission to a top engineering school. I combine technical expertise with creative problem-solving to build robust, scalable data solutions.",
@@ -31,7 +31,7 @@ export const aboutData = {
   ],
   location: {
     icon: MapPin,
-    text: "Based in Vannes, Mobile in France",
+    text: "Based in Mohammedia, Mobile in Morocco",
   },
   socialLinks: {
     linkedin: "https://linkedin.com/",

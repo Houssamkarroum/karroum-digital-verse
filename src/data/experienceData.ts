@@ -1,4 +1,3 @@
-
 export const experienceData = [
   {
     date: "2025 - 2027",
@@ -9,37 +8,53 @@ export const experienceData = [
   },
   {
     date: "2023 - 2026",
-    title: "Engineering Studies",
+    title: "Diplôme d'Ingénieur en Big Data et Cloud Computing",
     organization: "ENSET",
-    location: "France",
-    description: "Advanced studies in engineering with focus on technology and innovation.",
+    location: "Mohammedia, Morocco",
+    description:
+      "Advanced engineering studies focused on Big Data, Cloud Computing, and emerging technologies.",
   },
   {
     date: "2021 - 2023",
     title: "Computer Science Studies",
     organization: "École Supérieure de Technologie",
-    location: "France",
-    description: "Foundation in computer science and programming fundamentals.",
+    location: "Agadir, Morocco",
+    description: "Bachelor's degree in Computer Science with a focus on software development and data analysis.",
   },
   {
-    date: "2023",
-    title: "Data Analysis Intern",
-    organization: "Neotem",
-    location: "Paris, France",
+    date: "Juin 2024 - Août 2024 (3 Mois)",
+    title: "Job Simulation - Data Scientist",
+    organization: "British Airways",
+    location: "Remote",
+    description:[
+      "Web scraping to extract and analyze customer reviews.",
+      "Implemented natural language processing (NLP) for process automation and optimization.",
+      "Simulated a Data Scientist role to analyze and generate insights using advanced data science techniques.",
+    ],
+      
+  },
+  {
+    date: "Juin 2024 - Août 2024 (3 Mois)",
+    title: "Stage - Data Scientist / Data Analyst",
+    organization: "NOETEM",
+    location: "Agadir, Morocco",
     description: [
-      "Analyzed football data and built interactive Power BI dashboards to visualize key performance metrics.",
-      "Collaborated with Hicham and was mentored by Ali to extract actionable insights from complex datasets.",
-      "Implemented ETL processes to transform raw match data into clean, structured datasets for analysis.",
+      "Developed interactive Power BI dashboards for analyzing Premier League performance metrics.",
+      "Explored and processed data using Python (Pandas, NumPy) and SQL.",
+      "Implemented predictive models with machine learning techniques.",
+      "Utilized Git, Linux, and Docker; developed graphical interfaces.",
     ],
   },
   {
-    date: "2022 - 2023",
-    title: "BCG x ENSIBS Project",
-    organization: "Boston Consulting Group",
+    date: "Février 2024 - Septembre 2025 (8 Mois)",
+    title: "Enquêteur Principal",
+    organization: "Haut-Commissariat au Plan",
+    location: "France",
     description: [
-      "Worked on an AI-powered chatbot for analyzing financial reports (10-K, 10-Q).",
-      "Focused on financial data extraction and trend analysis using natural language processing.",
-      "Collaborated with a team of 5 to deliver a functional prototype with 85% accuracy in financial insight extraction.",
+      "Collected and validated demographic and economic data.",
+      "Improved data collection performance by 20%.",
+      "Ensured quality and accuracy of information.",
+      "Collaborated in team efforts to cover a wide population sample.",
     ],
   },
 ];
